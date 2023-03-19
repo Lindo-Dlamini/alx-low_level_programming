@@ -1,23 +1,17 @@
 #include <stdio.h>
-
 /**
- * main - we are displaying alphabets
+ * main - main
  *
- * Return: 0 (We are asked to return 0)
+ * Return: is 0
  */
 
 int main(void)
 {
-	char i;
+	char a;
 
-	for (i = 'a'; i <= 'z';)
-	{
-	if (i != 'e' && i != 'q')
-	{
-	putchar(i);
-	i++;
-	}
+	for (a = 'a' ; a <= 'z' ; a++)
+		if (a != 'q' && a != 'e')
+			putchar(a);
 	putchar('\n');
-	}
 	return (0);
 }
