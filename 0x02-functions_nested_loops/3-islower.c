@@ -3,11 +3,12 @@
 
 /**
  * _islower - determines if lowercase or not
- *
- * Return: 1 or 0 (depending if lowercase or not)
+ *@c: alphabet
+ * Return: 1 if lowercase
+ * and 0 if uppercase
  */
 
-int _islower(int c)
+int _islower(int c);
 {
 
 	if (c >= 97 && c <= 122)
