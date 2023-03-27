@@ -5,7 +5,6 @@
  *
  * @a: first number to be considered
  * @b: second number to be considered
- * @c: holds the original value of a
  * Return: Always 0
  */
 
